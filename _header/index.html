@@ -1,0 +1,65 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://use.typekit.net/ptq7ssy.js"></script>
+    <script>
+        try {
+            Typekit.load({
+                async: true
+            });
+        } catch (e) {}
+
+    </script>
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <h1 class="overlay-title">WITH BARE HANDS</h1>
+            <h3 class="overlay-sub-title">A project by</p>
+            <p class="overlay-name">Tomaso Clavarino, Isacco Chiaf</p>
+            <h3 class="overlay-sub-title">Video Editing</p>
+            <p class="overlay-name">Luca Vigliani</p>
+            <h3 class="overlay-sub-title">Map Coding</p>
+            <p class="overlay-name">----</p>
+             <h3 class="overlay-sub-title">Translations</p>
+            <p class="overlay-name">----</p>
+        </div>
+    </div>
+
+    <header>
+
+        <h1 class="head-title">WITH BARE HANDS</h1>
+        <nav>
+            <ul>
+                <li><a href="#credit" onclick="openNav()">CREDIT</a></li>
+                <li class="hide-in-mobile"><a href="#contact"><img src="img/header_facebook_share.png"> </a></li>
+                <li class="hide-in-mobile"><a href="#about"><img src="img/header_twitter_share.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.opacity = "1";
+            document.getElementById("myNav").style.visibility = "visible";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.opacity = "0";
+            document.getElementById("myNav").style.visibility = "hidden";
+        }
+
+    </script>
+
+</body>
+
+</html>

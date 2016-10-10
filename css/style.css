@@ -1,0 +1,187 @@
+.img-bg {
+    background: url(../images/main-cover.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*------------ Typography ---------------*/
+
+.bold {
+    font-weight: 700
+}
+.white {
+    color: white
+}
+.light {
+    font-weight: 300
+}
+.big-title {
+    font-size: 120px;
+    text-align: center;
+    letter-spacing: 10px;
+    margin-top: 20%;
+}
+.center {
+    text-align: center
+}
+.story-cover {
+    margin: 0;
+    padding: 0;
+}
+.story-title {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    -ms-transform: translate(-50%, -50%);
+    /* IE 9 */
+    -webkit-transform: translate(-50%, -50%);
+    /* Safari */
+    transform: translate(-50%, -50%);
+}
+.story-container {
+    position: relative;
+}
+
+/*---------------     HEADER     --------------*/
+
+body,
+html {
+    width: 100%;
+    margin: 0
+}
+body {
+    font-size: 16px;
+    margin: 0
+}
+header {
+    z-index: 1000;
+    height: 55px;
+    color: white;
+    background-color: #111111;
+    margin-top: 0;
+    position: fixed;
+    width: 100%
+}
+.head-title {
+    padding: 10px 20px;
+    font-family: "korolev-compressed", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+    color: white;
+    float: left;
+}
+nav {
+    float: right
+}
+ul {
+    list-style-type: none;
+}
+li {
+    display: block;
+    float: left;
+    text-decoration: none;
+    padding: 5px 20px;
+    letter-spacing: 2px;
+    font-size: 80%
+}
+li a {
+    text-decoration: none;
+    color: white;
+    font-family: "korolev", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+li img {
+    text-decoration: none;
+    color: white;
+    font-family: "korolev", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: -8px
+}
+
+/*-------    OVERLAY    --------------*/
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    color: white;
+}
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.overlay a:hover,
+.overlay a:focus {
+    color: #f1f1f1;
+}
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+.overlay-title {
+    font-family: "korolev-compressed", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.7em;
+    color: white;
+    letter-spacing: 3px;
+}
+.overlay-sub-title {
+    font-family: "korolev", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    letter-spacing: 4px
+}
+.overlay-name {
+    font-family: "korolev", sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    letter-spacing: 1px
+}
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px
+    }
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .hide-in-mobile {
+        display: none;
+    }
+}
