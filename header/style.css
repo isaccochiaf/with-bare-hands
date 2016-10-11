@@ -26,33 +26,8 @@
         float: left;
     }
     nav {
-        float: right
-    }
-    ul {
-        list-style-type: none;
-    }
-    li {
-        display: block;
-        float: left;
-        text-decoration: none;
-        padding: 5px 20px;
-        letter-spacing: 2px;
-        font-size: 80%
-    }
-    li a {
-        text-decoration: none;
-        color: white;
-        font-family: "korolev", sans-serif;
-        font-style: normal;
-        font-weight: 300;
-    }
-    li img {
-        text-decoration: none;
-        color: white;
-        font-family: "korolev", sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        margin-top: -8px
+        float: right;
+        margin: 10px 10px;
     }
     /*-------    OVERLAY    --------------*/
     
