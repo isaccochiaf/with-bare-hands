@@ -5,9 +5,9 @@
 /* Define mobile styles */
 
 @media only screen and (max-width: 40em) {
-    h1.story-title-cover {
-    font-size: 2.5em;
-}
+    div.story-title-cover h1 {
+        font-size: 2.5em;
+    }
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -318,9 +318,16 @@ nav ul li:hover >a {
 .story-title-cover {
     position: absolute;
     color: white;
-    top: 65%;
+    top: 60%;
     left: 30px;
+}
+.story-title-cover h1 {
     font-size: 5.5em;
+}
+.story-title-cover p {
+    font-size: 1.2em;
+    font-family: "korolev", sans-serif;
+    font-weight: 300;
 }
 .back-arrow ul {
     margin-left: 0;
