@@ -7,6 +7,10 @@
 @media only screen and (max-width: 40em) {
     div.story-title-cover h1 {
         font-size: 2.5em;
+        margin-top: 50px;
+    }
+    p.story-sub-cover {
+        font-size: 1.5em
     }
 }
 
@@ -335,7 +339,7 @@ nav ul li:hover >a {
 .back-arrow ul {
     list-style-type: none;
     position: fixed;
-    margin-top: 67px;
+    margin-top: 68px;
     z-index: 2000;
 }
 .back-arrow ul li {
@@ -345,6 +349,7 @@ nav ul li:hover >a {
     padding: 15px 20px;
     background-color: #111;
     color: white;
+    font-family: "korolev", sans-serif;
 }
 .back-arrow .back-to a {
     color: #111;
