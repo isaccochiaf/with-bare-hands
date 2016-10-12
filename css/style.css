@@ -7,7 +7,6 @@
 @media only screen and (max-width: 40em) {
     div.story-title-cover h1 {
         font-size: 2.5em;
-        margin-top: 50px;
     }
     p.story-sub-cover {
         font-size: 1.5em
