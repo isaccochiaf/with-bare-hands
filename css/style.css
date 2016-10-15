@@ -361,3 +361,14 @@ nav ul li:hover >a {
 .first-paragraph {
     color: white
 }
+.video-story h1 {
+    font-size: 5.5em;
+    margin-top: 150px
+}
+.video-box {
+    padding: 50px 0
+}
+video {
+    width: 100% !important;
+    height: auto !important;
+}
