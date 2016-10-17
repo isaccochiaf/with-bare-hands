@@ -184,7 +184,8 @@ nav ul li {
     line-height: 33px;
     padding: 10px 20px;
     font-family: 'korolev';
-    letter-spacing: 2px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
     -webkit-transition: all 0.7s;
     transition: all 0.7s;
 }
@@ -371,4 +372,12 @@ nav ul li:hover >a {
 video {
     width: 100% !important;
     height: auto !important;
+}
+.home-button {
+    width: 100%
+}
+#video-full-page {}
+.video-full-page {
+    margin-top: 55px;
+    max-height: calc(100vh - 55px)
 }

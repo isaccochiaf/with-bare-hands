@@ -1256,14 +1256,14 @@ screen and (min-width: 75em) {
     transition: background-color 0.25s ease-out, color 0.25s ease-out;
     vertical-align: middle;
     border: 1px solid white;
-    border-radius: 20px;
+    border-radius: 0;
     padding: 1em 1.2em;
     margin: 0 0 1rem 0;
     font-size: 0.9rem;
     color: #fefefe;
     font-family: "korolev", sans-serif;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
 }
 [data-whatinput='mouse'] .button {
