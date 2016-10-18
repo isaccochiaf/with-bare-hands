@@ -11,6 +11,9 @@
     p.story-sub-cover {
         font-size: 1.5em
     }
+    body.img-bg {
+        background: url(../images/main-cover-mobile.jpg) no-repeat center center fixed;
+    }
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -46,6 +49,10 @@
 
 .black {
     background-color: #111;
+}
+.black-page {
+    background-color: #111;
+    color: white;
 }
 .img-bg {
     background: url(../images/main-cover.jpg) no-repeat center center fixed;
