@@ -41,7 +41,12 @@
 
 /* min-width 1441px, xlarge screens */
 
-@media only screen and (min-width: 90.063em) and (max-width: 120em) {}
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+    .big-title {
+        font-size: 200px;
+        padding-top: 30%;
+    }
+}
 
 /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 
@@ -113,10 +118,11 @@
     font-weight: 300
 }
 .big-title {
-    font-size: 120px;
+    line-height: auto;
+    font-size: 150px;
     text-align: center;
     letter-spacing: 10px;
-    margin-top: 20%;
+    padding-top: 20%;
 }
 .center {
     text-align: center
