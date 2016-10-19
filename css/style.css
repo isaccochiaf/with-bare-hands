@@ -42,7 +42,7 @@
 /* min-width 1441px, xlarge screens */
 
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
-    .big-title {
+    h1.big-title {
         font-size: 200px;
         padding-top: 30%;
     }
